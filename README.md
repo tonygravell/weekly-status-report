@@ -29,11 +29,3 @@
 
 5. View and Test:<br>
    Check for updates in the view section and test it with your email campaign.<br>
-
-**How to Format Handlebars Files**
-
-1. With Prettier Installed, Change the Extension to .html (example.handlebars -> example.html).
-
-2. Save the Document (If Using 'Format on Save' Setting in VSCode) Which Should Format Code Correctly.
-
-3. Revert Extension Back To .handlebars (example.html -> example.handlebars)
