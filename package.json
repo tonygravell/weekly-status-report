@@ -1,0 +1,13 @@
+{
+  "name": "my-handlebars-project",
+  "version": "1.0.0",
+  "description": "View Handlebars templates as HTML",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
