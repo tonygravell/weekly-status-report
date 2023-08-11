@@ -1,9 +1,6 @@
-This repository contains a basic setup for an Express server using Handlebars as the template engine. It provides a way to update
-sendgrid templates using VSCode, which makes it easier to read and maintain in the future.
+### This repository contains a basic setup for an Express server using Handlebars as the template engine.<br><br>It provides a way to update sendgrid templates using VSCode, making it easier to read and maintain.<br><br>
 
-Getting Started
-
-Follow these steps to set up and run the Express server:
+**Follow these steps to set up and run the Express server:**
 
 1. Clone the Repository:
    git clone https://github.com/your-username/your-handlebars-repo.git
@@ -16,7 +13,7 @@ Follow these steps to set up and run the Express server:
    yarn start
    The server will start and be accessible at http://localhost:3000.
 
-How to Retrieve SendGrid Template Code
+**How to Retrieve SendGrid Template Code**
 
 1. Run the Server:
    Before retrieving the code, make sure the server is running using the steps above.
@@ -33,7 +30,7 @@ How to Retrieve SendGrid Template Code
 5. View and Test:
    Check for updates in the view section and test it with your email campaign.
 
-How to Format Handlebars Files
+**How to Format Handlebars Files**
 
 1. With Prettier Installed, Change the Extension to .html (example.handlebars -> example.html).
 
