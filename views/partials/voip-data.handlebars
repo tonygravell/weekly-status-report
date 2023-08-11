@@ -1,52 +1,5 @@
-{{#if voipweeklycallcountmissing}}
-
-<table width="600" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="218" height="34" style="font-family: arial">
-      <table
-        width="100%"
-        border="0"
-        cellspacing="0"
-        cellpadding=""
-        style="font-family: arial; margin-top: 20px; margin-bottom: 10px"
-      >
-        <tr>
-          <td width="218" height="34" style="font-family: arial">
-            <table>
-              <tr>
-                <td>
-                  <img
-                    width="30"
-                    height="30"
-                    src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_voip.png"
-                  />
-                </td>
-                <td>
-                  <p style="font-weight: bold; font-size: 24px; margin-left: 8px">VOICE OVER IP CALLING</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td style="color: red">
-            <table width="444">
-              <tr>
-                <td width="32">&nbsp;</td>
-                <td width="400" style="color: red; font-family: arial">
-                  <strong>You do not have this feature</strong>
-                </td>
-              </tr>
-            </table>
-          </td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-{{else}}
+{{#if voipweeklycallcountmissing}} {{> feature-missing feature-name="VOICE OVER IP CALLING"
+icon="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_voip.png"}} {{else}}
 <table width="600" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="218" height="34" style="font-family: arial">

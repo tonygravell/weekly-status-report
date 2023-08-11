@@ -1,34 +1,5 @@
-{{#if satisfactionmissing}}
-<table border="0" cellspacing="0" cellpadding="" style="font-family: arial; margin-top: 20px; margin-bottom: 10px">
-  <tr>
-    <td width="218" height="34" style="font-family: arial">
-      <table>
-        <tr>
-          <td>
-            <img width="30" height="39" src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_survey.png" />
-          </td>
-          <td>
-            <p style="font-weight: bold; font-size: 24px; margin-left: 8px">SATISFACTION SURVEY</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="112">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="2" style="color: red">
-      <table width="444">
-        <tr>
-          <td width="31">&nbsp;</td>
-          <td width="401" style="color: red; font-family: arial">
-            <strong>You do not have this feature</strong>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-{{else}}
+{{#if satisfactionmissing}} {{> feature-missing feature-name="SATISFACTION SURVEY"
+icon="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_survey.png"}} {{else}}
 <table width="600" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td height="34" style="font-family: arial">
@@ -40,22 +11,8 @@
         style="font-family: arial; margin-top: 20px; margin-bottom: 10px"
       >
         <tr>
-          <td width="218" height="34" style="font-family: arial">
-            <table>
-              <tr>
-                <td>
-                  <img
-                    width="30"
-                    height="39"
-                    src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_survey.png"
-                  />
-                </td>
-                <td>
-                  <p style="font-weight: bold; font-size: 24px; margin-left: 8px">SATISFACTION SURVEY</p>
-                </td>
-              </tr>
-            </table>
-          </td>
+          {{> feature-header feature-name="SATISFACTION SURVEY"
+          icon="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_survey.png"}}
           <td width="20%">
             <table width="155" border="0" cellspacing="0" style="font-family: arial; background-color: #ffb400">
               <tr>
