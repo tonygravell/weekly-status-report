@@ -1,57 +1,80 @@
-<table width="600" border="0" cellspacing="0" cellpadding="0" style="font-family:arial;margin-top:10px;">
-    <tr>
-        <td width="360" height="34"
-            style="font-family:arial;background-color:#ffb400;color:#000;font-weight:600;font-size:16px;padding:0px 10px;margin-bottom:10px;">
-            {{organizationname}}</td>
-        <td width="10" rowspan="4">
-            <center>
-            </center>
-            <p style="font-family:arial;font-size:12px;margin-top:5px;">
-                &nbsp;</p>
-        </td>
-        <td width="232" rowspan="4" align="center">
-            <center>
-                {{#if sessionaveragedurationmissing}}
-                {{else}}
-                <table style="background-color:#f4f4f4;font-family:arial;width:110px;height:100px;" width="280"
-                    height="100" border="0">
-                    <tr>
-                        <td width="200" height="100"
-                            style="font-family:arial;text-align:center;color:#000;width:200px;height:100px;font-weight:600;font-size:22px;">
-                            {{sessionaverageduration}}
-                            <br />
-                            <p style="font-family:arial;font-size:14px;margin-top:5px;">
-                                <strong>Average Session
-                                    Duration</strong>
-                            </p>
-                        </td>
-                    </tr>
-                </table>
-                {{/if}}
-            </center>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-    </tr>
-    <tr>
-        <td height="32" style="padding:5px 0;">
-            <table style="font-family:arial;width:100%;border-left:5px orange solid;margin-top:10px;">
-                <tr>
-                    <td><span style="font-family:arial;font-size:16px;padding:0px 10px;">Your
-                            Results for</span> <br />
-                        <span
-                            style="font-family:arial;font-size:28px;padding:0px 0px 0px 10px;font-weight:600;">{{reportingperiod}}</span><span
-                            style="font-family:arial;font-size: 12px">
-                            <br />
-                            <br />
-                        </span><span style="font-family:arial;font-size:16px;padding:0px 10px;font-weight:600;"></span>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-    </tr>
+<table width="600" border="0" cellspacing="0" cellpadding="0" style="font-family: arial; margin-top: 10px">
+  <tr>
+    <td
+      width="360"
+      height="34"
+      style="
+        font-family: arial;
+        background-color: #ffb400;
+        color: #000;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+      "
+    >
+      {{organizationname}}
+    </td>
+    <td width="10" rowspan="4">
+      <center></center>
+      <p style="font-family: arial; font-size: 12px; margin-top: 5px">&nbsp;</p>
+    </td>
+    <td width="232" rowspan="4" align="center">
+      <center>
+        {{#if sessionaveragedurationmissing}} {{else}}
+        <table
+          style="background-color: #f4f4f4; font-family: arial; width: 110px; height: 100px"
+          width="280"
+          height="100"
+          border="0"
+        >
+          <tr>
+            <td
+              width="200"
+              height="100"
+              style="
+                font-family: arial;
+                text-align: center;
+                color: #000;
+                width: 200px;
+                height: 100px;
+                font-weight: 600;
+                font-size: 22px;
+              "
+            >
+              {{sessionaverageduration}}
+              <br />
+              <p style="font-family: arial; font-size: 14px; margin-top: 5px">
+                <strong>Average Session Duration</strong>
+              </p>
+            </td>
+          </tr>
+        </table>
+        {{/if}}
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="32" style="padding: 5px 0">
+      <table style="font-family: arial; width: 100%; border-left: 5px orange solid; margin-top: 10px">
+        <tr>
+          <td>
+            <span style="font-family: arial; font-size: 16px; padding: 0px 10px">Your Results for</span> <br />
+            <span style="font-family: arial; font-size: 28px; padding: 0px 0px 0px 10px; font-weight: 600"
+              >{{reportingperiod}}</span
+            ><span style="font-family: arial; font-size: 12px">
+              <br />
+              <br /> </span
+            ><span style="font-family: arial; font-size: 16px; padding: 0px 10px; font-weight: 600"></span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
 </table>

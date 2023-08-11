@@ -1,72 +1,73 @@
 {{#if printmissing}}
-<table border="0" cellspacing="0" cellpadding="" style="font-family:arial;margin-top:20px;margin-bottom:10px;">
-    <tr>
-        <td width="218" height="34" style="font-family:arial;">
-            <table>
-                <tr>
-                    <td>
-                        <img width="30" height="30"
-                            src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_printer.png" />
-                    </td>
-                    <td>
-                        <p style="font-weight: bold; font-size: 24px; margin-left: 8px;">
-                            PRINTING</p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-        <td width="284">&nbsp;</td>
-    </tr>
-    <tr>
-        <td colspan="2" style="color:red;">
-            <table width="444">
-                <tr>
-                    <td width="37">&nbsp;</td>
-                    <td width="395" style="color:red;font-family:arial;">
-                        <strong>You do not have this
-                            feature</strong>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
+<table border="0" cellspacing="0" cellpadding="" style="font-family: arial; margin-top: 20px; margin-bottom: 10px">
+  <tr>
+    <td width="218" height="34" style="font-family: arial">
+      <table>
+        <tr>
+          <td>
+            <img width="30" height="30" src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_printer.png" />
+          </td>
+          <td>
+            <p style="font-weight: bold; font-size: 24px; margin-left: 8px">PRINTING</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="284">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="color: red">
+      <table width="444">
+        <tr>
+          <td width="37">&nbsp;</td>
+          <td width="395" style="color: red; font-family: arial">
+            <strong>You do not have this feature</strong>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
 {{else}}
 <table width="600" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-        <td width="219" height="34" style="font-family:arial;">
-            <table width="600" border="0" cellspacing="0" cellpadding=""
-                style="font-family:arial;margin-top:20px;margin-bottom:10px;">
-                <tr>
-                    <td width="218" height="34" style="font-family:arial;">
-                        <table>
-                            <tr>
-                                <td>
-                                    <img width="30" height="30"
-                                        src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_printer.png" />
-                                </td>
-                                <td>
-                                    <p style="font-weight: bold; font-size: 24px; margin-left: 8px;">
-                                        PRINTING</p>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td width="20%">
-                        <table width="155" border="0" cellspacing="0"
-                            style="font-family:arial;background-color:#ffb400;">
-                            <tr>
-                                <td align="left" height="34"
-                                    style="font-family:arial;font-size:14px;text-align:center;">
-                                    <strong>Total:
-                                    </strong><strong>{{printweeklycount}}</strong>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
+  <tr>
+    <td width="219" height="34" style="font-family: arial">
+      <table
+        width="600"
+        border="0"
+        cellspacing="0"
+        cellpadding=""
+        style="font-family: arial; margin-top: 20px; margin-bottom: 10px"
+      >
+        <tr>
+          <td width="218" height="34" style="font-family: arial">
+            <table>
+              <tr>
+                <td>
+                  <img
+                    width="30"
+                    height="30"
+                    src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_printer.png"
+                  />
+                </td>
+                <td>
+                  <p style="font-weight: bold; font-size: 24px; margin-left: 8px">PRINTING</p>
+                </td>
+              </tr>
             </table>
-        </td>
-    </tr>
+          </td>
+          <td width="20%">
+            <table width="155" border="0" cellspacing="0" style="font-family: arial; background-color: #ffb400">
+              <tr>
+                <td align="left" height="34" style="font-family: arial; font-size: 14px; text-align: center">
+                  <strong>Total: </strong><strong>{{printweeklycount}}</strong>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
 {{/if}}

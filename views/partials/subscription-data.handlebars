@@ -1,46 +1,51 @@
 <table width="600" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-        <td width="218" height="34" style="font-family:arial;">
-            <table>
-                <tr>
-                    <td>
-                        <img width="30" height="30"
-                            src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_subscription.png" />
-                    </td>
-                    <td>
-                        <p style="font-weight: bold; font-size: 24px; margin-left: 8px;">
-                            SUBSCRIPTION
-                        </p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-</table>
-</td>
-</tr>
-<tr>
-    <td> {{#if subscriptionabouttoexpire}}
-        <table width="100%" border="0" cellpadding="5">
-            <tr>
-                <td height="40" align="center"
-                    style="font-family:arial;background-color:red;font-size:15px;font-weight:600;color:#fff;">
-                    ATTENTION: Your Zamok
-                    Subscription
-                    Needs to be Renewed!
-                </td>
-            </tr>
-        </table>
-        {{else}}
-        <table width="100%" border="0" cellpadding="5">
-            <tr>
-                <td height="40" align="center"
-                    style="font-family:arial;background-color:#328f00;font-size:15px;font-weight:600;color:#fff;">
-                    Your Zamok Subscription
-                    is in Good
-                    Standing!</td>
-            </tr>
-        </table>
-     {{/if}}
+  <tr>
+    <td width="218" height="34" style="font-family: arial">
+      <table>
+        <tr>
+          <td>
+            <img
+              width="30"
+              height="30"
+              src="https://advancedkiosks.com/wp-content/uploads/2023/08/icon_subscription.png"
+            />
+          </td>
+          <td>
+            <p style="font-weight: bold; font-size: 24px; margin-left: 8px">SUBSCRIPTION</p>
+          </td>
+        </tr>
+      </table>
     </td>
-</tr>
+  </tr>
+</table>
+<table width="600">
+  <tr>
+    <td>
+      {{#if subscriptionabouttoexpire}}
+      <table width="100%" border="0" cellpadding="5">
+        <tr>
+          <td
+            height="40"
+            align="center"
+            style="font-family: arial; background-color: red; font-size: 15px; font-weight: 600; color: #fff"
+          >
+            ATTENTION: Your Zamok Subscription Needs to be Renewed!
+          </td>
+        </tr>
+      </table>
+      {{else}}
+      <table width="100%" border="0" cellpadding="5">
+        <tr>
+          <td
+            height="40"
+            align="center"
+            style="font-family: arial; background-color: #328f00; font-size: 15px; font-weight: 600; color: #fff"
+          >
+            Your Zamok Subscription is in Good Standing!
+          </td>
+        </tr>
+      </table>
+      {{/if}}
+    </td>
+  </tr>
 </table>
